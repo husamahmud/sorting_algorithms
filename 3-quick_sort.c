@@ -1,5 +1,7 @@
 #include "sort.h"
 
+void swap(int *x, int *y);
+
 /**
  * partition - Partitions the array using the last element as the pivot.
  *
@@ -69,4 +71,17 @@ void quick_sort(int *array, size_t size)
 		return;
 
 	quick_sort_recursive(array, 0, size - 1, size);
+}
+
+/**
+ * swap - Swaps two values of two integers.
+ *
+ * @x: Pointer to the first integer.
+ * @y: Pointer to the second integer.
+ */
+void swap(int *x, int *y)
+{
+	int temp = *x;
+	*x = *y;
+	*y = temp;
 }

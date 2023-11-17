@@ -1,5 +1,7 @@
 #include "sort.h"
 
+void swap(int *x, int *y);
+
 /**
  * selection_sort - Selection Sort Algorithm.
  *
@@ -30,4 +32,18 @@ void selection_sort(int *array, size_t size)
 			print_array(array, size);
 		}
 	}
+}
+
+
+/**
+ * swap - Swaps two values of two integers.
+ *
+ * @x: Pointer to the first integer.
+ * @y: Pointer to the second integer.
+ */
+void swap(int *x, int *y)
+{
+	int temp = *x;
+	*x = *y;
+	*y = temp;
 }

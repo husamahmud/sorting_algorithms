@@ -2,3 +2,5 @@ a.out
 CMakeLists.txt
 cmake-build-debug
 test.c
+.DS_Store
+.idea

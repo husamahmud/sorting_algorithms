@@ -26,8 +26,8 @@ void check_swiftdown(int *array, size_t size_init, size_t size, size_t root)
 		swap(&array[root], &array[left_child]);
 		print_array(array, size_init);
 	} else if ((left_child < size) && (right_child < size) &&
-	           (right_child_val > left_child_val &&
-	            right_child_val > array[root]))
+				(right_child_val > left_child_val &&
+				right_child_val > array[root]))
 	{
 		swap(&array[root], &array[right_child]);
 		print_array(array, size_init);

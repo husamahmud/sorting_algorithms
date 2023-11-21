@@ -13,6 +13,7 @@
 |       [Counting sort](102-counting_sort.c)       |   `n + k`   |    `n + k`     |   `n + k`    |   `k`    |
 |          [Merge sort](103-merge_sort.c)          |  `nlog(n)`  |   `nlog(n)`    |  `nlog(n)`   |   `n`    |
 |          [Radix sort](105-radix_sort.c)          |    `nk`     |      `nk`      |     `nk`     |   `n`    |
+|        [104-heap_sort.c](104-heap_sort.c)        |  `nlog(n)`  |   `nlog(n)`    |  `nlog(n)`   |    1     |
 
 **Note:**
 
